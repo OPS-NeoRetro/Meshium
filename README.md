@@ -1,6 +1,10 @@
-# Nvidium
+# Meshium
 
-Nvidium is an alternate rendering backing for sodium, it uses cutting edge nvidia features to render huge amounts of
+![Meshium logo](src/main/resources/assets/meshium/meshium.png)
+
+Meshium is an alternate rendering backing for Sodium. It uses mesh shaders alongside fragment and vertex shaders to render huge amounts of
 terrain geometry at very playable framerates.
 
-### Requires sodium and an nvidia gtx 1600 series or newer to run (turing+ architecture)
+## System requirements
+
+Requires a GPU with OpenGL mesh shader support. Includes any NVIDIA GeForce GTX 1600 series or RTX-series GPU, AMD RX 6600+/7000/9000 GPUs and above, AMD Ryzen 6000/7000/8000/9000 series APU, and more after OpenGL shader support is announced in new GPU drivers coming in 2026.
