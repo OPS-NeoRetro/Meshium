@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "id": "nvidium",
+  "id": "meshium",
   "version": "${version}",
   "custom": {
     "commit": "${commit}",
     "buildtime": "${buildtime}"
   },
-  "name": "Nvidium",
+  "name": "Meshium",
   "description": "Replacement rendering engine for sodium",
   "authors": [
     "Cortex"
   ],
   "contact": {},
   "license": "LGPL-3.0",
-  "icon": "assets/nvidium/nvidium.png",
+  "icon": "assets/meshium/meshium.png",
   "environment": "client",
   "entrypoints": {},
   "mixins": [
-    "nvidium.mixins.json"
+    "meshium.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.15",
