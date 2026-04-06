@@ -121,3 +121,6 @@ run/
 *.orig
 *.bak
 [Bb]ackup*
+
+# Windows-specific NTFS streams
+*:Zone.Identifier
