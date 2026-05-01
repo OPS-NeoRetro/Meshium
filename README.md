@@ -2,7 +2,7 @@
 
 ![Meshium logo](src/main/resources/assets/meshium/meshium.png)
 
-Meshium is an alternate rendering backing for Sodium. It uses mesh shaders alongside fragment and vertex shaders to render huge amounts of
+Meshium is an alternate rendering backend for Sodium. It uses mesh shaders alongside fragment and vertex shaders to render huge amounts of
 terrain geometry at very playable framerates.
 
 ## System requirements
