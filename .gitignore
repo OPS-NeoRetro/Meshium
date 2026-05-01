@@ -123,4 +123,4 @@ run/
 [Bb]ackup*
 
 # Windows-specific NTFS streams
-*:Zone.Identifier
+*Zone.Identifier
