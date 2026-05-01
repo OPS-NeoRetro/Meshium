@@ -22,7 +22,7 @@ targetCompatibility = JavaVersion.VERSION_21
 apply plugin: "fabric-loom"
 
 loom {
-    mixin.defaultRefmapName = "nvidium.refmap.json"
+    mixin.defaultRefmapName = "meshium.refmap.json"
     runs {
         it.configureEach {
             vmArgs("-Xmx8G", "-XX:+UseZGC")
@@ -34,7 +34,7 @@ loom {
 processResources {
     inputs.properties("version": project.version, "commit": gitCommitHash, "buildtime":buildtime)
 
-    archivesBaseName = "nvidium"
+    archivesBaseName = "meshium"
     filesMatching("fabric.mod.json") {
         expand "commit": gitCommitHash, "version": project.version, "buildtime": buildtime
     }

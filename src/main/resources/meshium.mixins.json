@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "me.cortex.meshium.mixin",
+  "package": "com.github.ops-neoretro.meshium.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
     "minecraft.LightMapAccessor",

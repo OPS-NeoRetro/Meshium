@@ -15,7 +15,6 @@
 #import <meshium:terrain/fog.glsl>
 #import <meshium:terrain/vertex_format.glsl>
 
-
 #ifdef TRANSLUCENCY_SORTING_QUADS
 vec3 depthPos = vec3(0);
 shared float depthBuffers[32];
