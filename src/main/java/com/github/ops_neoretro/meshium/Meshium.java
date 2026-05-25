@@ -28,12 +28,16 @@ public class Meshium {
 
     public static void checkSystemIsCapable() {
         var cap = GL.getCapabilities();
-        boolean supported = cap.GL_EXT_mesh_shader &&
-                cap.GL_EXT_uniform_buffer_unified_memory &&
-                cap.GL_EXT_vertex_buffer_unified_memory &&
+        boolean supportsMeshShaders = cap.GL_EXT_mesh_shader || cap.GL_NV_mesh_shader;
+        boolean supportsUnifiedMemory = (cap.GL_EXT_uniform_buffer_unified_memory && cap.GL_EXT_vertex_buffer_unified_memory)
+                || (cap.GL_NV_uniform_buffer_unified_memory && cap.GL_NV_vertex_buffer_unified_memory);
+        boolean supportsBindless = cap.GL_EXT_bindless_multi_draw_indirect || cap.GL_NV_bindless_multi_draw_indirect;
+
+        boolean supported = supportsMeshShaders &&
+                supportsUnifiedMemory &&
                 cap.GL_EXT_representative_fragment_test &&
                 cap.GL_ARB_sparse_buffer &&
-                cap.GL_EXT_bindless_multi_draw_indirect;
+                supportsBindless;
         IS_COMPATIBLE = supported;
         if (IS_COMPATIBLE) {
             LOGGER.info("All capabilities met");
