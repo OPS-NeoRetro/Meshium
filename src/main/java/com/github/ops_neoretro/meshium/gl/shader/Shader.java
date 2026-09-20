@@ -54,19 +54,19 @@ public class Shader extends GlObject {
             GLCapabilities capabilities = GL.getCapabilities();
             String patched = source;
 
-            if (!capabilities.GL_NV_mesh_shader && capabilities.GL_EXT_mesh_shader) {
+            if (!(capabilities.GL_NV_mesh_shader) && capabilities.GL_EXT_mesh_shader) {
                 patched = patched.replace("GL_NV_mesh_shader", "GL_EXT_mesh_shader");
             }
-            if (!capabilities.GL_NV_gpu_shader5 && capabilities.GL_ARB_gpu_shader5) {
+            if (!(capabilities.GL_NV_gpu_shader5) && capabilities.GL_ARB_gpu_shader5) {
                 patched = patched.replace("GL_NV_gpu_shader5", "GL_ARB_gpu_shader5");
             }
-            if (!capabilities.GL_NV_bindless_texture && capabilities.GL_ARB_bindless_texture) {
+            if (!(capabilities.GL_NV_bindless_texture) && capabilities.GL_ARB_bindless_texture) {
                 patched = patched.replace("GL_NV_bindless_texture", "GL_ARB_bindless_texture");
             }
-            if (!capabilities.GL_NV_shader_buffer_load && capabilities.GL_ARB_shader_buffer_load) {
+            if (!(capabilities.GL_NV_shader_buffer_load) && capabilities.GL_ARB_shader_buffer_load) {
                 patched = patched.replace("GL_NV_shader_buffer_load", "GL_ARB_shader_buffer_load");
             }
-            if (!capabilities.GL_NV_fragment_shader_barycentric && capabilities.GL_AMD_shader_explicit_vertex_parameter) {
+            if (!(capabilities.GL_NV_fragment_shader_barycentric) && capabilities.GL_AMD_shader_explicit_vertex_parameter) {
                 patched = patched.replace("GL_NV_fragment_shader_barycentric", "GL_AMD_shader_explicit_vertex_parameter");
             }
 
