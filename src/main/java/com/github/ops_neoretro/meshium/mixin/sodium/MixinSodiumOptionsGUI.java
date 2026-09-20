@@ -1,9 +1,9 @@
-package com.github.ops_neoretro.mixin.sodium;
+package com.github.ops_neoretro.meshium.mixin.sodium;
 
-import com.github.ops_neoretro.MeshiumWorldRenderer;
-import com.github.ops_neoretro.config.ConfigGuiBuilder;
-import com.github.ops_neoretro.sodiumCompat.IMeshiumWorldRendererGetter;
-import com.github.ops_neoretro.sodiumCompat.MeshiumOptionFlags;
+import com.github.ops_neoretro.meshium.MeshiumWorldRenderer;
+import com.github.ops_neoretro.meshium.config.ConfigGuiBuilder;
+import com.github.ops_neoretro.meshium.sodiumCompat.IMeshiumWorldRendererGetter;
+import com.github.ops_neoretro.meshium.sodiumCompat.MeshiumOptionFlags;
 import me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI;
 import me.jellysquid.mods.sodium.client.gui.options.*;
 import me.jellysquid.mods.sodium.client.gui.options.storage.OptionStorage;

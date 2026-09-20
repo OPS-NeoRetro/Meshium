@@ -1,7 +1,7 @@
-package com.github.ops_neoretro.api0;
+package com.github.ops_neoretro.meshium.api0;
 
-import com.github.ops_neoretro.Meshium;
-import com.github.ops_neoretro.sodiumCompat.IMeshiumWorldRendererGetter;
+import com.github.ops_neoretro.meshium.Meshium;
+import com.github.ops_neoretro.meshium.sodiumCompat.IMeshiumWorldRendererGetter;
 import me.jellysquid.mods.sodium.client.render.SodiumWorldRenderer;
 import org.joml.Matrix4fc;
 import org.joml.Matrix4x3fc;

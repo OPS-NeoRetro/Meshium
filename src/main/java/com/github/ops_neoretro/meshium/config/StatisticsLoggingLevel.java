@@ -1,4 +1,4 @@
-package com.github.ops_neoretro.config;
+package com.github.ops_neoretro.meshium.config;
 
 public enum StatisticsLoggingLevel {
     NONE,

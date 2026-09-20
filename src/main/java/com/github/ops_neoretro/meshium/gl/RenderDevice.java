@@ -1,6 +1,6 @@
-package com.github.ops_neoretro.gl;
+package com.github.ops_neoretro.meshium.gl;
 
-import com.github.ops_neoretro.gl.buffers.*;
+import com.github.ops_neoretro.meshium.gl.buffers.*;
 
 import static org.lwjgl.opengl.ARBDirectStateAccess.glCopyNamedBufferSubData;
 import static org.lwjgl.opengl.ARBDirectStateAccess.glFlushMappedNamedBufferRange;

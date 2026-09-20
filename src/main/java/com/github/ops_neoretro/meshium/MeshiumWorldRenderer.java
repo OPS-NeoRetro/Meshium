@@ -1,11 +1,11 @@
-package com.github.ops_neoretro;
+package com.github.ops_neoretro.meshium;
 
-import com.github.ops_neoretro.gl.RenderDevice;
-import com.github.ops_neoretro.managers.AsyncOcclusionTracker;
-import com.github.ops_neoretro.managers.SectionManager;
-import com.github.ops_neoretro.sodiumCompat.MeshiumCompactChunkVertex;
-import com.github.ops_neoretro.util.DownloadTaskStream;
-import com.github.ops_neoretro.util.UploadingBufferStream;
+import com.github.ops_neoretro.meshium.gl.RenderDevice;
+import com.github.ops_neoretro.meshium.managers.AsyncOcclusionTracker;
+import com.github.ops_neoretro.meshium.managers.SectionManager;
+import com.github.ops_neoretro.meshium.sodiumCompat.MeshiumCompactChunkVertex;
+import com.github.ops_neoretro.meshium.util.DownloadTaskStream;
+import com.github.ops_neoretro.meshium.util.UploadingBufferStream;
 import me.jellysquid.mods.sodium.client.SodiumClientMod;
 import me.jellysquid.mods.sodium.client.render.chunk.ChunkRenderMatrices;
 import me.jellysquid.mods.sodium.client.render.chunk.RenderSection;

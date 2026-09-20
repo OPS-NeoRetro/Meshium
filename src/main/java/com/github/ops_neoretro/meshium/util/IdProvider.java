@@ -1,4 +1,4 @@
-package com.github.ops_neoretro.util;
+package com.github.ops_neoretro.meshium.util;
 
 import it.unimi.dsi.fastutil.ints.IntAVLTreeSet;
 import it.unimi.dsi.fastutil.ints.IntSortedSet;

@@ -1,12 +1,12 @@
-package com.github.ops_neoretro.managers;
+package com.github.ops_neoretro.meshium.managers;
 
 
 import it.unimi.dsi.fastutil.longs.Long2IntOpenHashMap;
-import com.github.ops_neoretro.Meshium;
-import com.github.ops_neoretro.gl.RenderDevice;
-import com.github.ops_neoretro.gl.buffers.IDeviceMappedBuffer;
-import com.github.ops_neoretro.util.IdProvider;
-import com.github.ops_neoretro.util.UploadingBufferStream;
+import com.github.ops_neoretro.meshium.Meshium;
+import com.github.ops_neoretro.meshium.gl.RenderDevice;
+import com.github.ops_neoretro.meshium.gl.buffers.IDeviceMappedBuffer;
+import com.github.ops_neoretro.meshium.util.IdProvider;
+import com.github.ops_neoretro.meshium.util.UploadingBufferStream;
 import me.jellysquid.mods.sodium.client.render.viewport.Viewport;
 import net.minecraft.util.math.ChunkSectionPos;
 import org.lwjgl.system.MemoryUtil;

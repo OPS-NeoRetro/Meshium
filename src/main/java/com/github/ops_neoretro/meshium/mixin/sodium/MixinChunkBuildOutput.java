@@ -1,7 +1,7 @@
-package com.github.ops_neoretro.mixin.sodium;
+package com.github.ops_neoretro.meshium.mixin.sodium;
 
-import com.github.ops_neoretro.sodiumCompat.IRepackagedResult;
-import com.github.ops_neoretro.sodiumCompat.RepackagedSectionOutput;
+import com.github.ops_neoretro.meshium.sodiumCompat.IRepackagedResult;
+import com.github.ops_neoretro.meshium.sodiumCompat.RepackagedSectionOutput;
 import me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuildOutput;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;

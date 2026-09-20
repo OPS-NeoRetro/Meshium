@@ -1,4 +1,4 @@
-package com.github.ops-neoretro.sodiumCompat;
+package com.github.ops_neoretro.meshium.sodiumCompat;
 
 public interface IRepackagedResult {
     RepackagedSectionOutput getOutput();

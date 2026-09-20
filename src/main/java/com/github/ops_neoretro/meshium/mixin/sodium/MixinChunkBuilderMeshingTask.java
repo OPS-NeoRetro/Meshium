@@ -1,8 +1,8 @@
-package com.github.ops_neoretro.mixin.sodium;
+package com.github.ops_neoretro.meshium.mixin.sodium;
 
-import com.github.ops_neoretro.Meshium;
-import com.github.ops_neoretro.sodiumCompat.IRepackagedResult;
-import com.github.ops_neoretro.sodiumCompat.SodiumResultCompatibility;
+import com.github.ops_neoretro.meshium.Meshium;
+import com.github.ops_neoretro.meshium.sodiumCompat.IRepackagedResult;
+import com.github.ops_neoretro.meshium.sodiumCompat.SodiumResultCompatibility;
 import me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuildContext;
 import me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuildOutput;
 import me.jellysquid.mods.sodium.client.render.chunk.compile.tasks.ChunkBuilderMeshingTask;

@@ -1,16 +1,16 @@
-package com.github.ops_neoretro.managers;
+package com.github.ops_neoretro.meshium.managers;
 
 import it.unimi.dsi.fastutil.longs.Long2IntOpenHashMap;
 import it.unimi.dsi.fastutil.longs.LongOpenHashSet;
 import it.unimi.dsi.fastutil.longs.LongSet;
-import com.github.ops_neoretro.Meshium;
-import com.github.ops_neoretro.MeshiumWorldRenderer;
-import com.github.ops_neoretro.gl.RenderDevice;
-import com.github.ops_neoretro.sodiumCompat.IMeshiumWorldRendererGetter;
-import com.github.ops_neoretro.sodiumCompat.IRepackagedResult;
-import com.github.ops_neoretro.util.BufferArena;
-import com.github.ops_neoretro.util.SegmentedManager;
-import com.github.ops_neoretro.util.UploadingBufferStream;
+import com.github.ops_neoretro.meshium.Meshium;
+import com.github.ops_neoretro.meshium.MeshiumWorldRenderer;
+import com.github.ops_neoretro.meshium.gl.RenderDevice;
+import com.github.ops_neoretro.meshium.sodiumCompat.IMeshiumWorldRendererGetter;
+import com.github.ops_neoretro.meshium.sodiumCompat.IRepackagedResult;
+import com.github.ops_neoretro.meshium.util.BufferArena;
+import com.github.ops_neoretro.meshium.util.SegmentedManager;
+import com.github.ops_neoretro.meshium.util.UploadingBufferStream;
 import me.jellysquid.mods.sodium.client.render.SodiumWorldRenderer;
 import me.jellysquid.mods.sodium.client.render.chunk.RenderSection;
 import me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuildOutput;

@@ -1,8 +1,8 @@
-package com.github.ops_neoretro.config;
+package com.github.ops_neoretro.meshium.config;
 
 import com.google.common.collect.ImmutableList;
-import com.github.ops_neoretro.Meshium;
-import com.github.ops_neoretro.sodiumCompat.MeshiumOptionFlags;
+import com.github.ops_neoretro.meshium.Meshium;
+import com.github.ops_neoretro.meshium.sodiumCompat.MeshiumOptionFlags;
 import me.jellysquid.mods.sodium.client.gui.options.*;
 import me.jellysquid.mods.sodium.client.gui.options.control.ControlValueFormatter;
 import me.jellysquid.mods.sodium.client.gui.options.control.CyclingControl;

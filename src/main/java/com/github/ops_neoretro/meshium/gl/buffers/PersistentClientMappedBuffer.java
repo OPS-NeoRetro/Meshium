@@ -1,7 +1,7 @@
-package com.github.ops_neoretro.gl.buffers;
+package com.github.ops_neoretro.meshium.gl.buffers;
 
 
-import com.github.ops_neoretro.gl.GlObject;
+import com.github.ops_neoretro.meshium.gl.GlObject;
 
 import static org.lwjgl.opengl.ARBDirectStateAccess.*;
 import static org.lwjgl.opengl.GL30C.*;

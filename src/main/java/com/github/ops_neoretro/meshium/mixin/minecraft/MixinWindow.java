@@ -1,6 +1,6 @@
-package com.github.ops_neoretro.mixin.minecraft;
+package com.github.ops_neoretro.meshium.mixin.minecraft;
 
-import com.github.ops_neoretro.Meshium;
+import com.github.ops_neoretro.meshium.Meshium;
 import net.minecraft.client.WindowEventHandler;
 import net.minecraft.client.WindowSettings;
 import net.minecraft.client.util.MonitorTracker;

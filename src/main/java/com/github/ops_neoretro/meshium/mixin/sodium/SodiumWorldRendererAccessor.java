@@ -1,4 +1,4 @@
-package com.github.ops_neoretro.mixin.sodium;
+package com.github.ops_neoretro.meshium.mixin.sodium;
 
 import me.jellysquid.mods.sodium.client.render.SodiumWorldRenderer;
 import me.jellysquid.mods.sodium.client.render.chunk.RenderSectionManager;

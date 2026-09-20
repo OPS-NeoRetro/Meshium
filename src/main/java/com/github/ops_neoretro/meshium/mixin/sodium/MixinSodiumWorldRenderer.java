@@ -1,9 +1,9 @@
-package com.github.ops_neoretro.mixin.sodium;
+package com.github.ops_neoretro.meshium.mixin.sodium;
 
 import it.unimi.dsi.fastutil.longs.Long2ObjectMap;
-import com.github.ops_neoretro.Meshium;
-import com.github.ops_neoretro.MeshiumWorldRenderer;
-import com.github.ops_neoretro.sodiumCompat.IMeshiumWorldRendererGetter;
+import com.github.ops_neoretro.meshium.Meshium;
+import com.github.ops_neoretro.meshium.MeshiumWorldRenderer;
+import com.github.ops_neoretro.meshium.sodiumCompat.IMeshiumWorldRendererGetter;
 import me.jellysquid.mods.sodium.client.render.SodiumWorldRenderer;
 import me.jellysquid.mods.sodium.client.render.chunk.RenderSectionManager;
 import me.jellysquid.mods.sodium.client.render.viewport.Viewport;

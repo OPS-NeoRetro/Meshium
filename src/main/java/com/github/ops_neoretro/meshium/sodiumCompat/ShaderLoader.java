@@ -1,8 +1,8 @@
-package com.github.ops-neoretro.sodiumCompat;
+package com.github.ops_neoretro.meshium.sodiumCompat;
 
-import com.github.ops-neoretro.Meshium;
-import com.github.ops-neoretro.config.StatisticsLoggingLevel;
-import com.github.ops-neoretro.config.TranslucencySortingLevel;
+import com.github.ops_neoretro.meshium.Meshium;
+import com.github.ops_neoretro.meshium.config.StatisticsLoggingLevel;
+import com.github.ops_neoretro.meshium.config.TranslucencySortingLevel;
 import me.jellysquid.mods.sodium.client.gl.shader.ShaderConstants;
 import me.jellysquid.mods.sodium.client.gl.shader.ShaderParser;
 import net.minecraft.util.Identifier;

@@ -1,10 +1,10 @@
-package com.github.ops_neoretro.mixin.sodium;
+package com.github.ops_neoretro.meshium.mixin.sodium;
 
 import it.unimi.dsi.fastutil.longs.Long2ReferenceMap;
-import com.github.ops_neoretro.Meshium;
-import com.github.ops_neoretro.MeshiumWorldRenderer;
-import com.github.ops_neoretro.managers.AsyncOcclusionTracker;
-import com.github.ops_neoretro.sodiumCompat.*;
+import com.github.ops_neoretro.meshium.Meshium;
+import com.github.ops_neoretro.meshium.MeshiumWorldRenderer;
+import com.github.ops_neoretro.meshium.managers.AsyncOcclusionTracker;
+import com.github.ops_neoretro.meshium.sodiumCompat.*;
 import me.jellysquid.mods.sodium.client.SodiumClientMod;
 import me.jellysquid.mods.sodium.client.gl.device.CommandList;
 import me.jellysquid.mods.sodium.client.render.chunk.ChunkRenderMatrices;

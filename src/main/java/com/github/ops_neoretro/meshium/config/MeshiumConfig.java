@@ -1,9 +1,9 @@
-package com.github.ops_neoretro.config;
+package com.github.ops_neoretro.meshium.config;
 
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.github.ops_neoretro.Meshium;
+import com.github.ops_neoretro.meshium.Meshium;
 import net.fabricmc.loader.api.FabricLoader;
 
 import java.io.FileReader;

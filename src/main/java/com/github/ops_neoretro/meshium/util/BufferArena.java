@@ -1,9 +1,9 @@
-package me.cortex.meshium.util;
+package com.github.ops_neoretro.meshium.util;
 
-import me.cortex.meshium.Meshium;
-import me.cortex.meshium.gl.RenderDevice;
-import me.cortex.meshium.gl.buffers.IDeviceMappedBuffer;
-import me.cortex.meshium.gl.buffers.PersistentSparseAddressableBuffer;
+import com.github.ops_neoretro.meshium.Meshium;
+import com.github.ops_neoretro.meshium.gl.RenderDevice;
+import com.github.ops_neoretro.meshium.gl.buffers.IDeviceMappedBuffer;
+import com.github.ops_neoretro.meshium.gl.buffers.PersistentSparseAddressableBuffer;
 
 //TODO: make it not remove and immediately deallocate the sparse pages, wait until the end of a frame to deallocate
 // since committing pages is not cheap

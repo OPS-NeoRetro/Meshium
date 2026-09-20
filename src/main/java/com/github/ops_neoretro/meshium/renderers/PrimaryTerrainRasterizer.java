@@ -1,17 +1,17 @@
-package com.github.ops_neoretro.renderers;
+package com.github.ops_neoretro.meshium.renderers;
 
 import com.mojang.blaze3d.platform.GlStateManager;
-import com.github.ops_neoretro.gl.shader.Shader;
-import com.github.ops_neoretro.sodiumCompat.ShaderLoader;
-import com.github.ops_neoretro.mixin.minecraft.LightMapAccessor;
+import com.github.ops_neoretro.meshium.gl.shader.Shader;
+import com.github.ops_neoretro.meshium.sodiumCompat.ShaderLoader;
+import com.github.ops_neoretro.meshium.mixin.minecraft.LightMapAccessor;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.util.Identifier;
 import org.lwjgl.opengl.GL12C;
 import org.lwjgl.opengl.GL45;
 import org.lwjgl.opengl.GL45C;
 
-import static com.github.ops_neoretro.RenderPipeline.GL_DRAW_INDIRECT_ADDRESS_NV;
-import static com.github.ops_neoretro.gl.shader.ShaderType.*;
+import static com.github.ops_neoretro.meshium.RenderPipeline.GL_DRAW_INDIRECT_ADDRESS_NV;
+import static com.github.ops_neoretro.meshium.gl.shader.ShaderType.*;
 import static org.lwjgl.opengl.GL11C.*;
 import static org.lwjgl.opengl.GL33.glGenSamplers;
 import static org.lwjgl.opengl.NVMeshShader.glMultiDrawMeshTasksIndirectNV;

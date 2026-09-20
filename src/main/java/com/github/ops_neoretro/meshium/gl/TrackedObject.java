@@ -1,6 +1,6 @@
-package com.github.ops_neoretro.gl;
+package com.github.ops_neoretro.meshium.gl;
 
-import com.github.ops_neoretro.Meshium;
+import com.github.ops_neoretro.meshium.Meshium;
 
 import java.lang.ref.Cleaner;
 

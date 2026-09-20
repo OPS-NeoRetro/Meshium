@@ -1,6 +1,6 @@
-package com.github.ops-neoretro.sodiumCompat;
+package com.github.ops_neoretro.meshium.sodiumCompat;
 
-import com.github.ops-neoretro.MeshiumWorldRenderer;
+import com.github.ops_neoretro.meshium.MeshiumWorldRenderer;
 
 public interface IMeshiumWorldRendererSetter {
     void setWorldRenderer(MeshiumWorldRenderer renderer);

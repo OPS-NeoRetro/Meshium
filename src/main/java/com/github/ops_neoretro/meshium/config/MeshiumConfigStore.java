@@ -1,7 +1,7 @@
-package com.github.ops_neoretro.config;
+package com.github.ops_neoretro.meshium.config;
 
-import com.github.ops_neoretro.Meshium;
-import com.github.ops_neoretro.config.MeshiumConfig;
+import com.github.ops_neoretro.meshium.Meshium;
+import com.github.ops_neoretro.meshium.config.MeshiumConfig;
 import me.jellysquid.mods.sodium.client.gui.options.storage.OptionStorage;
 
 public class MeshiumConfigStore implements OptionStorage<MeshiumConfig> {

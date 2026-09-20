@@ -1,8 +1,8 @@
-package com.github.ops_neoretro.mixin.sodium;
+package com.github.ops_neoretro.meshium.mixin.sodium;
 
-import com.github.ops_neoretro.Meshium;
-import com.github.ops_neoretro.MeshiumWorldRenderer;
-import com.github.ops_neoretro.sodiumCompat.IMeshiumWorldRendererSetter;
+import com.github.ops_neoretro.meshium.Meshium;
+import com.github.ops_neoretro.meshium.MeshiumWorldRenderer;
+import com.github.ops_neoretro.meshium.sodiumCompat.IMeshiumWorldRendererSetter;
 import me.jellysquid.mods.sodium.client.gl.device.CommandList;
 import me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuildOutput;
 import me.jellysquid.mods.sodium.client.render.chunk.region.RenderRegion;

@@ -1,8 +1,8 @@
-package com.github.ops_neoretro.gl.buffers;
+package com.github.ops_neoretro.meshium.gl.buffers;
 
 import it.unimi.dsi.fastutil.ints.Int2IntOpenHashMap;
-import com.github.ops_neoretro.Meshium;
-import com.github.ops_neoretro.gl.GlObject;
+import com.github.ops_neoretro.meshium.Meshium;
+import com.github.ops_neoretro.meshium.gl.GlObject;
 import org.lwjgl.opengl.ARBSparseBuffer;
 import org.lwjgl.opengl.GL15;
 import org.lwjgl.opengl.GL21;

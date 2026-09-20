@@ -1,6 +1,6 @@
-package com.github.ops_neoretro;
+package com.github.ops_neoretro.meshium;
 
-import com.github.ops_neoretro.config.MeshiumConfig;
+import com.github.ops_neoretro.meshium.config.MeshiumConfig;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.api.ModContainer;
 import net.minecraft.util.Util;

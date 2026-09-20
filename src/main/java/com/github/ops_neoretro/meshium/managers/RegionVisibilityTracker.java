@@ -1,15 +1,15 @@
-package com.github.ops_neoretro.managers;
+package com.github.ops_neoretro.meshium.managers;
 
-import com.github.ops_neoretro.gl.RenderDevice;
-import com.github.ops_neoretro.gl.buffers.Buffer;
-import com.github.ops_neoretro.gl.shader.Shader;
-import com.github.ops_neoretro.sodiumCompat.ShaderLoader;
-import com.github.ops_neoretro.util.DownloadTaskStream;
+import com.github.ops_neoretro.meshium.gl.RenderDevice;
+import com.github.ops_neoretro.meshium.gl.buffers.Buffer;
+import com.github.ops_neoretro.meshium.gl.shader.Shader;
+import com.github.ops_neoretro.meshium.sodiumCompat.ShaderLoader;
+import com.github.ops_neoretro.meshium.util.DownloadTaskStream;
 import net.minecraft.util.Identifier;
 import org.lwjgl.system.MemoryUtil;
 
-import static com.github.ops_neoretro.gl.shader.ShaderType.FRAGMENT;
-import static com.github.ops_neoretro.gl.shader.ShaderType.MESH;
+import static com.github.ops_neoretro.meshium.gl.shader.ShaderType.FRAGMENT;
+import static com.github.ops_neoretro.meshium.gl.shader.ShaderType.MESH;
 import static org.lwjgl.opengl.GL42.GL_COMMAND_BARRIER_BIT;
 import static org.lwjgl.opengl.GL42.glMemoryBarrier;
 import static org.lwjgl.opengl.GL43C.GL_SHADER_STORAGE_BARRIER_BIT;

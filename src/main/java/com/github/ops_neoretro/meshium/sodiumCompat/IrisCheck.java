@@ -1,4 +1,4 @@
-package com.github.ops-neoretro.sodiumCompat;
+package com.github.ops_neoretro.meshium.sodiumCompat;
 
 import net.fabricmc.loader.api.FabricLoader;
 import net.irisshaders.iris.api.v0.IrisApi;

@@ -1,4 +1,4 @@
-package com.github.ops_neoretro.mixin.minecraft;
+package com.github.ops_neoretro.meshium.mixin.minecraft;
 
 import net.minecraft.client.render.LightmapTextureManager;
 import net.minecraft.client.texture.NativeImageBackedTexture;

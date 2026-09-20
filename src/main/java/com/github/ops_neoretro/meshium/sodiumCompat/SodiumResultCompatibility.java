@@ -1,8 +1,8 @@
-package com.github.ops-neoretro.sodiumCompat;
+package com.github.ops_neoretro.meshium.sodiumCompat;
 
 import it.unimi.dsi.fastutil.ints.IntArrays;
 import it.unimi.dsi.fastutil.longs.LongArrays;
-import com.github.ops-neoretro.Meshium;
+import com.github.ops_neoretro.meshium.Meshium;
 import me.jellysquid.mods.sodium.client.model.quad.properties.ModelQuadFacing;
 import me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuildOutput;
 import me.jellysquid.mods.sodium.client.render.chunk.terrain.DefaultTerrainRenderPasses;

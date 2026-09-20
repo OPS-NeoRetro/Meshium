@@ -1,13 +1,13 @@
-package me.cortex.meshium.util;
+package com.github.ops_neoretro.meshium.util;
 
 import it.unimi.dsi.fastutil.longs.LongArrayList;
 import it.unimi.dsi.fastutil.longs.LongList;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import it.unimi.dsi.fastutil.objects.ObjectList;
-import me.cortex.meshium.gl.RenderDevice;
-import me.cortex.meshium.gl.buffers.Buffer;
-import me.cortex.meshium.gl.buffers.PersistentClientMappedBuffer;
-import me.cortex.meshium.util.SegmentedManager;
+import com.github.ops_neoretro.meshium.gl.RenderDevice;
+import com.github.ops_neoretro.meshium.gl.buffers.Buffer;
+import com.github.ops_neoretro.meshium.gl.buffers.PersistentClientMappedBuffer;
+import com.github.ops_neoretro.meshium.util.SegmentedManager;
 
 import java.util.ArrayList;
 import java.util.List;

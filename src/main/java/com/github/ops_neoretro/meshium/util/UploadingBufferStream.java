@@ -1,12 +1,12 @@
-package com.github.ops_neoretro.util;
+package com.github.ops_neoretro.meshium.util;
 
 import it.unimi.dsi.fastutil.longs.LongArrayList;
 import it.unimi.dsi.fastutil.longs.LongList;
 import it.unimi.dsi.fastutil.objects.ReferenceArrayList;
-import com.github.ops_neoretro.gl.GlFence;
-import com.github.ops_neoretro.gl.RenderDevice;
-import com.github.ops_neoretro.gl.buffers.Buffer;
-import com.github.ops_neoretro.gl.buffers.PersistentClientMappedBuffer;
+import com.github.ops_neoretro.meshium.gl.GlFence;
+import com.github.ops_neoretro.meshium.gl.RenderDevice;
+import com.github.ops_neoretro.meshium.gl.buffers.Buffer;
+import com.github.ops_neoretro.meshium.gl.buffers.PersistentClientMappedBuffer;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayDeque;
@@ -14,7 +14,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 
-import static com.github.ops_neoretro.util.SegmentedManager.SIZE_LIMIT;
+import static com.github.ops_neoretro.meshium.util.SegmentedManager.SIZE_LIMIT;
 import static org.lwjgl.opengl.ARBDirectStateAccess.glCopyNamedBufferSubData;
 import static org.lwjgl.opengl.ARBDirectStateAccess.glFlushMappedNamedBufferRange;
 import static org.lwjgl.opengl.ARBMapBufferRange.*;

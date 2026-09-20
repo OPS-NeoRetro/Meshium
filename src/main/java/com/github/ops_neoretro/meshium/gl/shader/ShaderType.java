@@ -1,4 +1,4 @@
-package com.github.ops_neoretro.gl.shader;
+package com.github.ops_neoretro.meshium.gl.shader;
 
 import static org.lwjgl.opengl.GL20.GL_FRAGMENT_SHADER;
 import static org.lwjgl.opengl.GL20.GL_VERTEX_SHADER;

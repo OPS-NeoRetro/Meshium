@@ -1,4 +1,4 @@
-package com.github.ops_neoretro.util;
+package com.github.ops_neoretro.meshium.util;
 
 import java.lang.ref.WeakReference;
 import java.util.LinkedHashSet;

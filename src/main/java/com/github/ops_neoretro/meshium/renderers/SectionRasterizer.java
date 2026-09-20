@@ -1,11 +1,11 @@
-package com.github.ops_neoretro.renderers;
+package com.github.ops_neoretro.meshium.renderers;
 
-import com.github.ops_neoretro.gl.shader.Shader;
-import com.github.ops_neoretro.sodiumCompat.ShaderLoader;
+import com.github.ops_neoretro.meshium.gl.shader.Shader;
+import com.github.ops_neoretro.meshium.sodiumCompat.ShaderLoader;
 import me.jellysquid.mods.sodium.client.gl.shader.ShaderParser;
 import net.minecraft.util.Identifier;
 
-import static com.github.ops_neoretro.gl.shader.ShaderType.*;
+import static com.github.ops_neoretro.meshium.gl.shader.ShaderType.*;
 import static org.lwjgl.opengl.NVMeshShader.glDrawMeshTasksNV;
 
 public class SectionRasterizer extends Phase {

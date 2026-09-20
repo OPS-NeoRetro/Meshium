@@ -1,4 +1,4 @@
-package com.github.ops_neoretro.gl;
+package com.github.ops_neoretro.meshium.gl;
 
 public interface IResource {
     void delete();

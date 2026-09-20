@@ -1,6 +1,6 @@
-package com.github.ops_neoretro.gl.shader;
+package com.github.ops_neoretro.meshium.gl.shader;
 
-import com.github.ops_neoretro.gl.GlObject;
+import com.github.ops_neoretro.meshium.gl.GlObject;
 import org.lwjgl.opengl.GL20C;
 import org.lwjgl.opengl.GLCapabilities;
 import org.lwjgl.opengl.GL;

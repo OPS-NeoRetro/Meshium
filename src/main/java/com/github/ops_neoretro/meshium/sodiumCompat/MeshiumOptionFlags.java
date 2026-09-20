@@ -1,4 +1,4 @@
-package com.github.ops-neoretro.sodiumCompat;
+package com.github.ops_neoretro.meshium.sodiumCompat;
 
 import me.jellysquid.mods.sodium.client.gui.options.OptionFlag;
 

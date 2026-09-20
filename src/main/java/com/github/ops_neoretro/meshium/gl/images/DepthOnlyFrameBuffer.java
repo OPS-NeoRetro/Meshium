@@ -1,4 +1,4 @@
-package com.github.ops_neoretro.gl.images;
+package com.github.ops_neoretro.meshium.gl.images;
 
 import com.mojang.blaze3d.platform.GlConst;
 import com.mojang.blaze3d.platform.GlStateManager;

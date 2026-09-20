@@ -1,8 +1,8 @@
-package com.github.ops_neoretro.managers;
+package com.github.ops_neoretro.meshium.managers;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import it.unimi.dsi.fastutil.longs.Long2ReferenceMap;
-import com.github.ops_neoretro.sodiumCompat.IRenderSectionExtension;
+import com.github.ops_neoretro.meshium.sodiumCompat.IRenderSectionExtension;
 import me.jellysquid.mods.sodium.client.SodiumClientMod;
 import me.jellysquid.mods.sodium.client.render.chunk.ChunkUpdateType;
 import me.jellysquid.mods.sodium.client.render.chunk.RenderSection;

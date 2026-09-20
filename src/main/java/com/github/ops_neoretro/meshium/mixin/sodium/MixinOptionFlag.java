@@ -1,6 +1,6 @@
-package com.github.ops_neoretro.mixin.sodium;
+package com.github.ops_neoretro.meshium.mixin.sodium;
 
-import com.github.ops_neoretro.sodiumCompat.MeshiumOptionFlags;
+import com.github.ops_neoretro.meshium.sodiumCompat.MeshiumOptionFlags;
 import me.jellysquid.mods.sodium.client.gui.options.OptionFlag;
 import org.apache.commons.lang3.ArrayUtils;
 import org.spongepowered.asm.mixin.Final;
